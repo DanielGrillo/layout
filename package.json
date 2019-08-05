@@ -1,0 +1,15 @@
+{
+  "name": "layoutciclapp",
+  "version": "1.0.0",
+  "description": "Son las pruebas de layout de posible uso",
+  "main": "layout.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Grillo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jquery": "^3.4.1"
+  }
+}

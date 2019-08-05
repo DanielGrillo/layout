@@ -1,0 +1,180 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden;
+    background: #121314;
+    color: #fafbff; */
+    margin: 0;
+}
+
+*{margin: 0; padding: 0;}
+*:focus { outline: none; } 
+
+.logo{
+    background: #1ac43e;
+    border: 1px solid #1ac43e;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 100px;
+}
+
+.barra-navegacion{
+    background:yellow;
+    border: 1px solid yellow;
+    width: 100%;
+    position: fixed;
+}
+
+.active {
+    background-color: rgb(230, 191, 64);
+}
+
+.barra-navegacion ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.barra-navegacion ul li{
+    float: left;
+}
+
+.barra-navegacion ul li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.barra-navegacion ul li a:hover{
+    background: rgb(230, 191, 64);
+}
+
+.core-body{
+    display: flex;
+    border: 1px solid purple;
+}
+
+.help-videos{
+    flex: 1;
+    padding: 5px;
+    background: cyan;
+    padding: 20px 5px;
+}
+
+.help-videos ul{
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.help-videos ul li{
+    text-align: center;
+    /* display: flex;
+    align-items: center;
+    width: 100%; */
+    padding: 20px 5px;
+}
+
+.help-videos ul li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: rgb(43, 43, 87);
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.help-videos ul li a:hover{
+    background: rgb(146, 252, 252);
+}
+.crear-jugar{
+    flex: 4;
+    display: flex;
+}
+
+.crear-trivias{
+    flex: 1;
+    padding: 20px;
+    background: rgb(212, 121, 212);
+    border: 1px solid rgb(212, 121, 212);
+    color: rgb(17, 17, 19);
+    text-align: center;
+}
+
+.button-trivias{
+    border: none;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 1.3em;
+    background: -moz-linear-gradient(center top, rgb(106, 221, 110) 0%, #4CAF50 100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(106, 221, 110)), color-stop(100%,#4CAF50));
+    border-radius: 5px;
+    text-shadow: 1px 2px 1px rgb(255, 255, 255);
+    box-shadow: 3px 3px 2px rgb(95, 116, 53);
+}
+
+.button-trivias:active{
+    position:relative;
+    top:3px;
+    box-shadow: -1px -1px 2px rgb(95, 116, 53);
+    background: -moz-linear-gradient(center top, rgb(74, 175, 77) 0%, rgb(114, 209, 117)  100%) repeat scroll 0 0 transparent;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(74, 175, 77)), color-stop(100%,rgb(114, 209, 117)));
+}
+
+.jugar-trivias{
+    flex: 1;
+    padding: 20px;
+    background: rgb(255, 177, 229);
+    border: 1px solid rgb(212, 121, 212);
+    text-align: center;
+}
+
+.jugar-trivias h2{
+    padding-bottom: 10px;
+}
+
+.jugar-trivias ul{
+    list-style-type: none;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+.jugar-trivias ul li{
+    flex: 1;
+    padding: 20px 5px;
+    margin: 0;
+    border: 2px solid plum;
+    width: 100%;
+    
+}
+
+footer{
+    background: #054613;
+    color: #ffffff;
+}
+
+footer ul{
+    list-style-type: none;
+    overflow: hidden;
+    /* position: absolute;
+    bottom: 10px;
+    left: 10px; */
+}
+
+footer ul li{
+    float: left;
+}
+
+footer ul li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #ffffff;
+}
